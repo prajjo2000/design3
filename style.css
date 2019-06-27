@@ -1,73 +1,140 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.img1{
-    border-radius: 50%;
-}
-.topbar{
-    display: flex;
-}
-.three{
-    padding-top: 22px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-.one , .two {
-    font-size: 13px;
-    color: rgb(0, 0, 0, 0.87);
-}
-.one,.two,.four{
-    padding: 10px;
-}
-.img1{
-    height: 33px;
-    padding-top: 8px;
-}
-.one{
-    padding-left: 1325px;
-}
-.logo1 {
-    border-radius: 50%;
-    height: 50px;
+@media (min-width:800px){
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .img1{
+        border-radius: 50%;
+    }
+    .topbar{
+        display: flex;
+    }
+    .three{
+        padding-top: 22px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .one , .two {
+        font-size: 13px;
+        color: rgb(0, 0, 0, 0.87);
+    }
+    .one,.two,.four{
+        padding: 10px;
+    }
+    .img1{
+        height: 33px;
+        padding-top: 8px;
+    }
+    .one{
+        padding-left: 1325px;
+    }
+    .logo1 {
+        border-radius: 50%;
+        height: 50px;
+    
+    }
+    .logo2{
+        border-radius: 50%;
+        height: 60px;
+    }
+    .mainlogo{
+     margin-left: 624.8px;
+     margin-top: 16.3vh;
+    }
+    .input::placeholder{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .input{
+        width: 500px;
+        padding: 1px 0px 1px 20px;
+        text-decoration: none;
+        border: none;
+        margin-top: 20px;
+        margin-left: 500px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 20px;
+        background-color: #f0f0f0;
+    }
+    .wrap{
+        display: flex;
+    }
+    .logo1{
+        padding-top: 44px;
+        padding-left: 680px;
+        padding-right: 50px;
+    }
+    
+    .text1 , .text2{
+        font-size: small;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .text1{
+        padding-left: 690px;
+        padding-right: 55px;
+    }
+    
+    .cover1{
+        position: fixed;
+    }
+    .cover1 i{
+        position: fixed;
+        padding-top: 28px;
+        height: 30px;
+        margin-left: 1000px;
+    }
 
-}
-.logo2{
-    border-radius: 50%;
-    height: 60px;
-}
-.mainlogo{
- margin-left: 624.8px;
- margin-top: 16.3vh;
-}
-.input::placeholder{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.input{
-    width: 500px;
-    padding: 1px 0px 1px 20px;
-    text-decoration: none;
-    border: none;
-    margin-top: 20px;
-    margin-left: 500px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border-radius: 20px;
-    background-color: #f0f0f0;
-}
-.wrap{
-    display: flex;
-}
-.logo1{
-    padding-top: 44px;
-    padding-left: 680px;
-    padding-right: 50px;
+    .five i {
+        font-size: 0px;
+    }
+    
 }
 
-.text1 , .text2{
-    font-size: small;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.text1{
-    padding-left: 690px;
-    padding-right: 55px;
+@media (max-width:800px){
+ 
+    .one p , .two p ,.three i {
+        font-size: 0px;
+    }
+    .img1{
+        height: 0px;
+    }
+
+    .five{
+        display: flex;
+    }
+    .five i{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fivetwo,.fiveone,.fivethree{
+        font-size: 20px;
+    }
+
+    .fivetwo{
+        padding-left: 280px;
+        padding-right: 20px;
+    }
+    .logo1,.logo2{
+        height: 0px;
+    }
+    .text1,.text2{
+        font-size: 0px;
+    }
+
+    .mainlogo{
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+
+    .cover1 i{
+        font-size: 0px;
+    }
+    .input{
+        border-radius: 20px;
+        width: 330px;
+        text-decoration: none;
+        border: none;
+        background-color: #f0f0f0;
+        padding: 10px;
+    }
 }
