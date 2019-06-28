@@ -1,6 +1,7 @@
 @media (min-width:800px){
     *{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 2vh;
     }
     .img1{
         border-radius: 50%;
@@ -86,6 +87,10 @@
     .five i {
         font-size: 0px;
     }
+
+    .news{
+        visibility: hidden;
+    }
     
 }
 
@@ -136,5 +141,16 @@
         border: none;
         background-color: #f0f0f0;
         padding: 10px;
+    }
+    .news1{
+        height: 325px;
+    }
+    .news2{
+        height: 195px;
+    }
+
+    .news3{
+        height: 290px;
+        padding-left: 20px;
     }
 }
